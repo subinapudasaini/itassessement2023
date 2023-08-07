@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 1px solid black;
+            padding-left: 1rem;
+            padding-bottom: 1rem;
+        }
+        form h2{
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Search our website</h2>
+        <p>Where do you want to search?</p>
+        <input type="radio" id="whole" name="search"/>
+        <label for="whole">Whole Site</label><br/>
+        <input type="radio" id="business" name="search"/>
+        <label for="business">Business Partners Section</label><br/>
+        <input type="radio" id="corporate" name="search"/>
+        <label for="corporate">Corporate Communications Section</label><br/>
+        <input type="radio" id="lotus" name="search"/>
+        <label for="lotus">Lotus Education Section</label><br/>
+        <p>Enter a word or two that we can search on:</p>
+        <input type="text" name="search"/>
+        <br/>
+        <br/>
+        <button type="submit">Submit</button>
+        <button type="Reset">Clear</button>
+    </form>
+</body>
+</html>

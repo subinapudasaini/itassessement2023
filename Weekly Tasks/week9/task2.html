@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: #00BFFF;
+            color: #330000;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            max-width: 50%;
+            margin: auto;
+        }
+        header,footer{
+            background: #ccaa66;
+            text-align: center;
+            padding: 5px;
+            border-top: 2px solid black;
+        }
+        .main-section{
+            display: flex;
+            border-top: 2px solid black;
+        }
+        aside{
+            background: #E8D882;
+            padding: 15px;
+        }
+        main{
+            background: #f1e8b0;
+            padding: 15px;
+            flex-grow: 1;
+        }
+        main p{
+            margin: 0;
+        }
+        aside ul{
+            padding: 0;
+            list-style: none;
+        }
+        aside ul li{
+            margin: 10px 0;
+        }
+        aside ul li a{
+            text-decoration: none;
+        }
+        .box{
+            border: 2px solid black;
+        }
+        .main-body{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .main-body ul{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <header>
+        <h1>Stinky Pete's Pirate Tavern</h1>
+    </header>
+    <section class="main-section">
+        <aside>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Grog</a></li>
+                <li><a href="">Shanties</a></li>
+                <li><a href="">Become a swab</a></li>
+            </ul>
+        </aside>
+        <main>
+            <p>Avast maties! Here ye'll be findin' all these delights...</p>
+            <div class="main-body">
+                <div>
+            <ul>
+                <li>Great grog</li>
+                <li>All the rum you can drink</li>
+                <li>Good honest pirate fare like weevily biscuits and stewes rat</li>
+                <li>Wenches and swabs for every taste</li>
+                <li>Salty seadogs singin' shanties</li>
+                <li>...</li>
+            </ul>
+            <p>Berth 23</p>
+            <p>Nottingham Docks</p>
+            <p>0115 9324567</p>
+        </div>
+        <div>
+            <img src="img.png" alt="">
+        </div>
+        </div>
+        </main>
+    </section>
+    <footer>
+        <p><i>Copyright 2011 Stinky Pete's Private Tavern</i></p>
+        <p><a href=""><i>stinkeypete@arrr.com</i></a></p>
+    </footer>
+</div>
+</body>
+</html>
